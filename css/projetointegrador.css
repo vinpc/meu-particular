@@ -1,0 +1,175 @@
+
+{
+    
+}
+body{
+    margin:0;
+    text-decoration: none;
+   
+    
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+.header-nav a{
+    display: inline-block;
+    padding: 15px;
+    list-style: none;
+    text-decoration: none;
+    font-family: Montserrat ;
+    font-weight: 500px;
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+}
+.projeto{
+    width: 100%;
+    height: 300px;
+    background-image:url(../img/projeto-integrador.jpg);
+    background-size: cover;
+   
+}
+.sessao{ 
+  width: 100%;
+  height: 700px;      
+  display: grid;
+  grid-template-columns: repeat(3,300px);
+  grid-template-rows: repeat(2,250px);
+  grid-gap:30px;
+  justify-content: center;    
+  padding: 30px;
+}
+.materia{
+    display: grid;
+    overflow: hidden;
+    grid-template-rows:100px repeat(2,70px);
+    position: relative;
+    padding: 10px;
+    font-family: Montserrat ;
+    font-size: 15px;
+   box-shadow: 0px 0px 6px 4px rgba(0,0,0,0.42);
+}
+.materia img{
+    position: absolute;
+    right: -120;
+    transition: 2s;
+}
+.materia:hover img{
+     right: 0;
+    transition: 2s;
+}
+.materia .button{
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    border-radius:5px;
+    display: flex;
+    align-items: center;
+   background: #667db6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: aliceblue;
+    text-decoration: none;
+}
+.fas{
+    margin-left: 5px;
+}
+/*RODAPÉ*/
+     footer{
+        display: flex;
+        justify-content:flex-start;
+        background: #000000;
+        max-width: 100%;
+        height: 400px;
+        color: #716e6e;
+        list-style: none;
+        position: relative;
+        padding: 70px;
+        box-sizing: border-box;
+    }
+    footer .menu-footer a{
+        text-decoration: none;
+        text-transform: none;
+        color: #716e6e;
+        padding: 10px;
+        margin: 10px;
+        display: block;
+       
+    }
+    footer .menu-footer{
+     height: 200px;
+   
+    }
+    footer .social-media{
+        width: 300px;
+     
+        margin:0px; 
+       
+    }
+    footer .social-media ul{
+        list-style: none;
+         width: 100px;
+    }
+    footer .social-media ul li a{
+        text-decoration: none;
+        text-transform: none;
+        color: #716e6e;       
+        margin: 2px;
+        width: 150px;
+        display: flex;
+       
+    }
+    footer .social-media ul li a p:hover{
+        color: white;
+        transition: 1s;
+    }
+    footer .social-media a p{
+      
+        display: block;
+    }
+    footer .menu-footer a:hover{
+        color: white;
+        transition: 2s;
+    }
+    .fab{
+       font-size: 30px;
+        margin: 10px;
+    }
+   .insta:hover{
+        color:#8B30BB;
+        transition:1s;
+    }
+    .face:hover{
+         color:#4267B2;
+        transition:1s;
+    }
+    .git:hover{
+        color:white;
+        transition:1s; 
+    }
+    .twiter:hover{
+        color:#0089ff;
+        transition:1s; 
+    }
+    .logo-rodape{
+        position: absolute;
+        right: 0px;
+        top:50px;
+    }
+ .footer-bottom{        
+        width: 700px;
+        height: 70px;
+        position: absolute;
+        bottom: 0px;
+        left: 20%;
+       font-size: 20px;
+        
+        
+    }

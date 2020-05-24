@@ -1,0 +1,104 @@
+*{
+    text-decoration: none;
+}
+body{
+    margin:0px;
+}
+
+.hero{
+    display: flex;
+    background-color: black;
+    justify-content:space-around;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+   
+    
+}
+.menu-header{
+     margin-top: 15px;
+    position: absolute;
+    right:10px;
+    margin: 0;
+   
+}
+.logo{
+    margin-top: 15px;
+    padding: 0px;
+   position: absolute;
+    left: 0;
+}
+.hero  .menu-header a{
+    display: inline-block;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Staatliches', cursive;
+    font-size: 25px;
+    
+}
+.hero .menu-header a:hover{
+    text-decoration: underline;
+    transition:1s; 
+}
+
+.header-base{
+margin: 0;    
+width: 100%;
+height:600px;    
+background-image: url(/img/integrador.png);
+background-attachment: fixed;
+background-size: cover;
+background-position: top;
+border: 1px solid transparent;
+}
+.header-base p{
+    position: absolute;
+    margin: 0;
+    color: aliceblue;
+    width:700px;
+    height: 200px;
+    bottom:90;
+    right:50;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+}
+.header-base h1{
+    padding-top: 100px;
+    box-sizing: border-box;
+    width: 70%;
+    height: 150px;
+    color:white;
+    font-weight: 500;
+    font-size: 70px;
+    font-family: 'Manrope', sans-serif;
+    text-align:center;
+}
+.faculdade{
+    width: 100%;
+    height: 500px;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 200px 200px 500px; 
+    grid-auto-rows: repeat(alto-fill, minmax(100px,1fr);
+}
+.faculdade h2{
+       border: 1px solid red;
+   
+}
+.faculdade p{
+    border: 1px solid red;
+    grid-row-start:2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.itens{
+    display: block;
+    border: 1px solid red;
+}
